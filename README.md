@@ -69,7 +69,7 @@ homework_3/
 
 ### 1. 克隆项目
 ```bash
-git clone <repository-url>
+git clone https://github.com/Crohkles/Mario_Agent_using_DDQN
 ```
 
 ### 2. 创建虚拟环境（使用conda）
