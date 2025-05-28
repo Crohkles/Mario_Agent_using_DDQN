@@ -23,10 +23,8 @@
 ## 🎮 项目简介
 
 本项目实现了一个基于***Double DQN***的强化学习智能体，能够自主学习并掌握超级马里奥兄弟游戏。通过观察游戏画面，智能体学会了如何移动、跳跃以及避开障碍物，最终能够成功通关游戏关卡。
-<video width="480" controls>
-  <source src="assets/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+https://github.com/user-attachments/assets/7f7bc03a-1a9d-4baa-905a-8bd4cc2a9e2c
 
 
 ## ✨ 核心特性
