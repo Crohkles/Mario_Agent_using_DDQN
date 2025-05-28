@@ -4,7 +4,7 @@
 
 ![Mario DQN Demo](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)
-![OpenAI Gym](https://img.shields.io/badge/OpenAI%20Gym-0.26+-green.svg)s
+![OpenAI Gym](https://img.shields.io/badge/OpenAI%20Gym-0.26+-green.svg)
 
 ## 📋 目录
 
