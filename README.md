@@ -1,8 +1,8 @@
-# Super Mario Bros DQN 强化学习项目
+# Super Mario Bros DDQN 强化学习项目
 
-一个使用深度Q网络(DQN)训练AI智能体玩超级马里奥兄弟游戏的强化学习项目。
+一个使用DDQN训练AI智能体玩超级马里奥兄弟游戏的强化学习项目。
 
-![Mario DQN Demo](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![Mario DDQN Demo](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)
 ![OpenAI Gym](https://img.shields.io/badge/OpenAI%20Gym-0.26+-green.svg)
 
@@ -47,7 +47,7 @@ homework_3/
 ├── auto_demo.py           # 自动演示（无UI）
 ├── draw_log.py            # 重绘训练图表
 ├── utils/
-│   ├── agent.py           # Mario DQN智能体
+│   ├── agent.py           # Mario 智能体
 │   ├── net.py             # MarioNet神经网络
 │   ├── wrappers.py        # 环境包装器
 │   └── logger.py          # 训练指标记录器
@@ -119,7 +119,7 @@ python draw_log.py
 
 ### 1. Mario智能体 (`agent.py`)
 
-实现了完整的DQN算法：
+实现了完整的DDQN算法：
 
 - **网络结构**: 在线网络 + 目标网络
 - **经验回放**: 容量10万的replay buffer
