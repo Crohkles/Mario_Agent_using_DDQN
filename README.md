@@ -1,8 +1,8 @@
-# Super Mario Bros DDQN 强化学习项目
+# Super Mario Bros DQN 强化学习项目
 
-一个使用DDQN训练AI智能体玩超级马里奥兄弟游戏的强化学习项目。
+一个使用DQN训练AI智能体玩超级马里奥兄弟游戏的强化学习项目。
 
-![Mario DDQN Demo](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![Mario DQN Demo](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)
 ![OpenAI Gym](https://img.shields.io/badge/OpenAI%20Gym-0.26+-green.svg)
 
@@ -22,7 +22,7 @@
 
 ## 🎮 项目简介
 
-本项目实现了一个基于***Double DQN***的强化学习智能体，能够自主学习并掌握超级马里奥兄弟游戏。通过观察游戏画面，智能体学会了如何移动、跳跃以及避开障碍物，最终能够成功通关游戏关卡。
+本项目实现了一个基于***DQN***的强化学习智能体，能够自主学习并掌握超级马里奥兄弟游戏。通过观察游戏画面，智能体学会了如何移动、跳跃以及避开障碍物，最终能够成功通关游戏关卡。
 
 https://github.com/user-attachments/assets/7f7bc03a-1a9d-4baa-905a-8bd4cc2a9e2c
 
@@ -30,7 +30,6 @@ https://github.com/user-attachments/assets/7f7bc03a-1a9d-4baa-905a-8bd4cc2a9e2c
 ## ✨ 核心特性
 
 - **DQN**: 使用卷积神经网络处理游戏画面
-- **Double DQN**: 采用在线网络和目标网络减少过估计
 - **经验回放**: 使用replay buffer提高学习效率
 - **ε-贪心策略**: 平衡探索与利用
 - **环境预处理**: 多层wrapper优化输入状态
@@ -121,7 +120,7 @@ python draw_log.py
 
 ### 1. Mario智能体 (`agent.py`)
 
-实现了完整的DDQN算法：
+实现了完整的DQN算法：
 
 - **网络结构**: 在线网络 + 目标网络
 - **经验回放**: 容量10万的replay buffer
