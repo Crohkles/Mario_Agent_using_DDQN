@@ -100,6 +100,8 @@ python main.py
 - 是否继续之前的训练
 
 ### 演示训练好的模型
+**提供checkpoints/2025-05-25T16-13-20/mario_net_336.chkpt训练数据**
+**通关率在20%左右**
 ```bash
 python demo.py
 ```
